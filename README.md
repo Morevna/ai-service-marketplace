@@ -1,6 +1,45 @@
-**Date:** 2026-02-21
+# AI-Powered Cleaning Service Marketplace 🛒🤖
 
-# Project: eCommerceLegendaryFrontendDevelopers
+[Deployed Application](https://ai-service-marketplace-sooty.vercel.app/)
+
+# AI-Powered Cleaning Service Marketplace 🛒🤖
+
+👥 **Team Final Project | Full-Stack SPA E-Commerce Platform**  
+A production-ready e-commerce SPA platform engineered for browsing, ordering, and managing professional cleaning services. The platform features a complex role-based access control system (Admin/User) and integrates an **AI-driven content automation engine**. Administrators can generate semantic service packages via natural language prompts; the backend AI compiles this into a structured JSON schema, which the client application dynamically intercepts, parses, and maps into rich interactive catalog views.
+
+---
+
+### 💻 My Technical Contributions
+
+I spearheaded the core administrative data pipelines, built the client-side AI integration interface, implemented URL-driven state synchronization, and managed the application's verification layers.
+
+#### 🔹 AI Interface Engineering & Admin Features
+* **AI Content Compilation Engine:** Designed and implemented the administrative client layer for AI processing (`feat: add UI generate-ai-page for admin and logic for working with response from ai`). Developed asynchronous parsing streams that map generic AI-generated JSON payloads straight into UI components.
+* **Synchronized State & URL Routing Architecture:** Designed a URL-driven state sync pattern (`put the statistics dates in the URL and created a state for authorization`). This ensures complex administrative views, charts, and statistics states remain fully persistent over hard reloads and deep linking using query parameters.
+* **Data Mutation & CRUD Controls:** Engineered comprehensive administrative workspaces allowing on-the-fly mutations of systemic datasets, user accounts, and package metrics (`add the ability for the admin to edit users data`, `transfer editing logic to the services page`).
+* **Complex Modals & Graph Projections:** Built multi-step order configuration systems (`fix order modal and add orders page`) and debugged asynchronous state injection anomalies in administrative charts (`fix bug with user graphs for the admin`).
+
+#### 🔹 Interface Optimization, Adaptability & i18n
+* **Advanced Internationalization Pipeline:** Integrated the multi-locale application engine (`add internationalization`), managing language contexts across data-heavy view nodes, charts, and informational models (`optimize AboutPage and add RU/EN language toggle`).
+* **Layout Adaptability & Token-Based Styling:** Standardized layout stability by debugging responsive layouts (`fix adaptive`, `fix bag with css about page`) and linking interfaces via centralized design tokens (`using the variables`).
+* **Asynchronous UX Loading States:** Implemented global fallback states, skeleton loaders, and UI spinners (`add loading state`) to handle data-fetching delays.
+
+#### 🔹 Testing, Pipeline Integrity & Environment Setup
+* **Unit Testing Ecosystem:** Initialized the automated test workspace by configuring `Vitest` and writing the baseline core unit tests (`setup vitset, add 5 tests`).
+* **Continuous Integration Support:** Maintained repository workflow sanitary conditions by fixing build/CI blockers (`fix ci and order fields`) and refactoring deployment delivery targets (`ci: change branch from master to main`).
+
+---
+
+### 🛠️ Detailed Tech Stack & Architecture
+* **Core Engine:** React 18, Vite, TypeScript
+* **State Management:** URL Query Parameters, Dynamic Routing (React Router DOM)
+* **Form Validation & AI Data Parsing:** Native JSON Compilation, Dynamic Schema Mapping
+* **UI Architecture:** Material UI (MUI), CSS Modules, CSS Design Tokens
+* **Testing Suite:** Vitest (Unit & Integration Testing)
+* **Localization Ecosystem:** i18next Framework (RU/EN Core Toggle)
+* **Backend:** Node.js/Express, Docker Containerization, Nginx (Reverse Proxy)
+
+
 
 ## Video Demonstration (Week 7 Checkpoint)
 
@@ -13,59 +52,7 @@ In this video we demonstrate all the features of our application:
 In this video, we demonstrate the handling of 404 pages, loading states, and API error handling:
 - [Watch Video Demo](https://youtu.be/EbpQGCGB3jc)
 
-## Live Demo
 
-[Deployed Application](http://188.127.251.19:5000/)
-
-## Running the application locally:
-1) Clone our repository (use ```git clone https://github.com/MegaRostBLR1/eCommerceLegendaryFrontendDevelopers.git```)
-2) Go to the frontend folder (```cd frontend```)
-3) Add .env file fol local development
-4) Use ```npm install``` for install dependencies
-5) Use ```npm run dev``` to start local development server 
-
-The backend is already deployed on a remote server, so you don't need to run it locally.
-
----
-
-## Project Overview
-
-An application that allows users to order services, as well as view statistics and order history.
-
-### We are proud
-
-- Our project is a full-fledged SPA, where a student-designed frontend professionally integrates with a containerized
-  backend. We're proud to have implemented a content automation tool: the admin can simply enter a text prompt, and the
-  system automatically generates ready-made service cards using JSON processing.
-  The presentation highlights the clean code (thanks to Prettier and TS), the user interface with its clear separation
-  of roles, and the magic of on-the-fly content generation.
-  We also paid close attention to the interface: the application is fully responsive and supports internationalization.
-  This demonstrates our expertise in working with modern APIs, complex states, and creating scalable interfaces.
-
-[Screenshot](https://github.com/user-attachments/assets/10f711c6-f9cc-4538-98f7-027c9333a43f)
-
-### Key Features
-- Service ordering system
-- Order history and analytics dashboard
-- User profile management (CRUD operations)
-- Registration and authentication flow
-- Secure logout functionality
-
-### Trello board 
-- [Link](https://trello.com/b/tinMoUk4/tandem-project)
-- [Screenshot](https://github.com/user-attachments/assets/10f711c6-f9cc-4538-98f7-027c9333a43f)
-
-### Meeting Notes
-- [Meet 1](https://youtu.be/kmAufD_jtOw)
-- [Meet 2](https://youtu.be/LVaHTRJizjA)
-- [Meet 3](https://youtu.be/wZgW2tvPJIQ)
-
-### Best PR 
-- [Link](https://github.com/MegaRostBLR1/eCommerceLegendaryFrontendDevelopers/pull/5)
-- [Link](https://github.com/MegaRostBLR1/eCommerceLegendaryFrontendDevelopers/pull/4)
-- [Link](https://github.com/MegaRostBLR1/eCommerceLegendaryFrontendDevelopers/pull/49)
-
----
 
 ## Our Team
 
