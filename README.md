@@ -2,7 +2,6 @@
 
 [Deployed Application](https://ai-service-marketplace-sooty.vercel.app/)
 
-# AI-Powered Cleaning Service Marketplace 🛒🤖
 
 👥 **Team Final Project | Full-Stack SPA E-Commerce Platform**  
 A production-ready e-commerce SPA platform engineered for browsing, ordering, and managing professional cleaning services. The platform features a complex role-based access control system (Admin/User) and integrates an **AI-driven content automation engine**. Administrators can generate semantic service packages via natural language prompts; the backend AI compiles this into a structured JSON schema, which the client application dynamically intercepts, parses, and maps into rich interactive catalog views.
